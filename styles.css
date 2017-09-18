@@ -1,11 +1,162 @@
-p {
-    margin-top: 100px;
-    padding-top: 50px;
-    background-color: green;
-}
-.intro { 
-    background-color: red;
-}
-#name{
-   color:blue; 
-}
+/* remove default padding and margins */
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0
+    }
+    
+    /* set default colors fore and background */
+    body {
+    max-width: 1200px;
+    margin: 1% auto;
+    color: #efefef;
+    background: rgb(118, 126, 130);
+    font-family: arial, verdana, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    border:2px ;
+    border-style:#898989;
+    }
+    
+    /* set size of heading division container */
+    header {
+    width: 100%;
+    background:  #898989;
+    float: center;
+    text-align:center
+    
+    }
+    
+    /* set size of heading-left division and position */
+    div.header {
+    width: 100%;
+    float: left;
+     }
+   
+     
+    /* set size of main division */
+    div.main {
+    width: 100%;
+    float: left;
+    
+    }
+    
+    div.main-left {
+    width: 25%;
+    float: left;
+    margin: 0 0 0 4%
+    }
+    
+    div.main-middle {
+    width: 34%;
+    float: left;
+    margin: 0 4% 0 4%
+    }
+    
+    div.main-right {
+    
+    width: 25%;
+    float:right;
+    margin: 0 3% 0 0
+    
+    }
+    div.main-middle_content{
+        width: 20%;
+        float: left;
+        margin: 0 0 0 4%   
+    }
+    
+    div.main-middle img{
+    margin: 4% 4%;
+    box-shadow: 5px 5px 10px #000000
+    }
+    
+    /*Liquify images */
+    img {
+    max-width: 200%;
+    max-height:200%;
+    }
+    
+    /* set size of footer division and add back color */
+    
+    footer {
+    width: 100%;
+    background: #606060;
+    float: left;
+    margin: 0 0 2% 0
+    }
+    
+    
+    div.header h1{
+    font-family: Lucida Sans Unicode;
+    font-size: 50px;
+    text-shadow: -3px -3px 8px #000000;
+    padding: 5% 0 5% 10%
+    }
+    
+    /* add font settings for paragraph tag in heading-right division */
+    div.header p {
+    font-size: 22px;
+    float: right;
+    text-shadow: -3px -3px 8px #000000;
+    padding: 10% 10% 10% 0
+    }
+    
+    /* set font properties of h1 tag within main-middle div */
+    
+    div.main-middle h1 {
+    font-size: 28px;
+    text-align: center;
+    margin: 4% 0;
+    text-shadow: -3px -3px 8px #000000;
+    }
+    
+    /* set font properties of h2 tag within main-middle div */
+    div.main-middle h2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 2% 0
+    }
+    
+    
+    /* set font properties of paragraph tag within main-middle div */
+    div.main-middle p {
+    font-size: 18px;
+    text-indent: 16px;
+    text-align: left;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 2% 0
+    }
+    div.lower{
+        text-align: left;
+        text-shadow: 2px 2px 4px #000000;
+        padding: 1% 0 ;
+    }
+    
+    div.main-right h2, div.main-left h2 ,div.main-middle_content h2,div.lower h2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 4% 0;
+    text-shadow: -3px -3px 8px #000000;
+    }
+    
+    div.main-left p, div.main-right p ,div.main-middle_content p,div.lower p{
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 2% 0
+    }
+    
+    /* set font properties of address tag within footer div */
+    footer p {
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    padding: .5% 0;
+    background:  #898989;
+    }
+ 
+    p:nth-child(10){
+        color:red;
+    }
+    p.clear {
+    clear: both;
+    }
