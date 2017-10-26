@@ -1,205 +1,37 @@
- /*  welcome to CSS */
- /* remove default padding and margins */
- * {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0
-    }
-    
-    /* set default colors fore and background */
-    body {
-    max-width: 1200px;
+body {
+    max-width: 900px;
     margin: 1% auto;
     color: #efefef;
-    background: rgb(118, 126, 130);
+    background: #606060;
+    border-style:#898989;
+    border: 2px solid #E2DADA;
     font-family: verdana;
     font-size: 16px;
     font-style: normal;
-    font-weight: normal;
-    border:2px ;
-    border-style:#898989;
-    border: 2px solid #E2DADA;
+    text-align:left 
     }
+
+table {       
+        background: #606060;
+        font-family: verdana;
+        font-size: 16px;
+        font-style: normal;
+        border: 2px solid #E2DADA;
+        text-align:left 
+    }  
     
-    /* set size of heading division container */
-    header {
-    width: 100%;
-    background:  #898989;
-    float: center;
-    text-align:center;
-    
-    }
-    
-    /* set size of heading-left division and position */
-    div.header {
-    width: 100%;
-    float: left;
-     }
-   
-     
-    /* set size of main division */
-    div.main {
-    width: 100%;
-    float: left;
-    
-    }
-    
-    div.main-left {
-    width: 25%;
-    float: left;
-    margin: 0 0 0 4%
-    }
-    
-    div.main-middle {
-    width: 34%;
-    float: left;
-    margin: 0 4% 0 4%
-    }
-    
-    div.main-right {
-    
-    width: 25%;
-    float:right;
-    margin: 0 3% 0 0
-    
-    }
-    div.main-middle_content{
-        width: 20%;
-        float: left;
-        margin: 0 0 0 4%   
-    }
-    
-    div.main-middle img{
-    margin: 4% 4%;
-    box-shadow: 5px 5px 10px #000000
-    }
-    
-    /*Liquify images */
-    img {
-    max-width: 200%;
-    max-height:200%;
-    }
-    
-    /* set size of footer division and add back color */
-    
-    footer {
-    width: 100%;
-    background: #606060;
-    float: left;
-    margin: 0 0 2% 0;
-    border: 2px solid #E2DADA;
-     }
-    
-    
-    div.header h1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
-    text-shadow: -3px -3px 8px #000000;
-    padding: 5% 0 5% 10%
-    }
-    
-    /* add font settings for paragraph tag in heading-right division */
-    div.header p {
-    font-size: 22px;
-    float: right;
-    text-shadow: -3px -3px 8px #000000;
-    padding: 10% 10% 10% 0
-    }
-    
-    /* set font properties of h1 tag within main-middle div */
-    
-    div.main-middle h1 {
-    font-size: 28px;
-    text-align: center;
-    margin: 4% 0;
-    text-shadow: -3px -3px 8px #000000;
-    }
-    
-    /* set font properties of h2 tag within main-middle div */
-    div.main-middle h2 {
-    font-size: 20px;
-    text-align: center;
-    padding: 2% 0
-    }
-    
-    
-    /* set font properties of paragraph tag within main-middle div */
-    div.main-middle p {
-    font-size: 18px;
-    text-indent: 16px;
-    text-align: left;
-    text-shadow: 2px 2px 4px #000000;
-    padding: 2% 0
-    }
-    div.lower{
-        text-align: left;
-        text-shadow: 2px 2px 4px #000000;
-        padding: 1% 0 ;
-    }
-    
-    div.main-right h2, div.main-left h2 ,div.main-middle_content h2,div.lower h2 {
-    font-size: 20px;
-    text-align: center;
-    padding: 4% 0;
-    text-shadow: -3px -3px 8px #000000;
-    }
-    
-    div.main-left p, div.main-right p ,div.main-middle_content p,div.lower p{
-    text-align: center;
-    text-shadow: 2px 2px 4px #000000;
-    padding: 2% 0
-    }
-    
-    /* set font properties of address tag within footer div */
-    footer p {
-    text-align: center;
-    text-shadow: 2px 2px 4px #000000;
-    padding: .5% 0;
-    background:  #898989;
-    
-    }
- 
-    p:nth-child(10){
-        color:red;
-    }
-    p.clear {
-    clear: both;
-    }
-    /* set the  properties of table */
-    table#t01 {
-        width: 100%; 
-        background-color: #898989;
-        text-align: left;
-    }
-    table#t01 tr:nth-child(even) {
-        background-color: #898989;
-    }
-    table#t01 tr:nth-child(odd) {
-        background-color: #898989;
-    }
-    table#t01 th {
-        color: white;
-        background-color: black;
-    }
-    a:link {
-        color: #2A0080; 
-        background-color: transparent; 
-        text-decoration: none;
-    }
-    
-    a:visited {
-        color: #C0ECFF;
-        background-color: transparent;
-        text-decoration: none;
-    }
-    
-    a:hover {
-        color: red;
-        background-color: transparent;
-        text-decoration: underline;
-    }
-    
-    a:active {
-        color: #00FF3A;
-        background-color: transparent;
-        text-decoration: underline;
-    }
+footer p {
+        text-align: center;
+        padding: .5% 0;
+        background:#898989;
+        }    
+ a:link {
+            color: rgb(128, 0, 17); 
+            background-color: transparent; 
+            text-decoration: none;
+        }        
+ a:visited {
+            color: #C0ECFF;
+            background-color: transparent;
+            text-decoration: none;
+        }
